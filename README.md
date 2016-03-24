@@ -1,2 +1,3 @@
-# curriculum_vitae
-Curriculum_vitae
+# Curriculum vitae
+
+http://nlarche.github.io/curriculum_vitae.
