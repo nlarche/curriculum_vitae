@@ -3,9 +3,6 @@ import { Link } from "react-router"
 import { WebIcon } from "web-icon"
 
 import styles from "./index.css"
-import SVG from "react-svg-inline"
-import twitterSVG from "../icons/iconmonstr-twitter-1.svg"
-import gitHubSVG from "../icons/iconmonstr-github-1.svg"
 
 export default class Header extends Component {
 
@@ -45,6 +42,7 @@ export default class Header extends Component {
                     </div>
                     <div className={ styles.navPart2 }>
                         { links.map((link) => 
+                            <span key={ links.indexOf(link) } >
                              <a
                                href={ link.href }
                                className={ styles.link }                               
@@ -52,6 +50,7 @@ export default class Header extends Component {
                             <WebIcon url={ link.url } noLink={ true } grayscale={ true } />
                             { link.name }
                         </a>
+                        </span>
                          ) }                       
                     </div>
                 </nav>

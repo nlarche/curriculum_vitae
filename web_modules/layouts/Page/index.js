@@ -16,7 +16,21 @@ export default class Page extends Component {
   static contextTypes = {
     metadata: PropTypes.object.isRequired,
   };
-
+  
+  constructor(props) {
+    super(props)
+    this.state = {
+      icons: null
+    }
+  }
+  componentWillReceiveProps(nextProps) {
+      
+    const icons = nextProps.head.icons && nextProps.head.icons.split(",")
+  
+    this.setState({
+      icons: icons
+    })
+  }
   render() {
     const {
       pkg,
@@ -48,8 +62,6 @@ export default class Page extends Component {
       { name: "description", content: head.description },
     ]
     
-    const icons = head.icons && head.icons.split(",")
-
     return (
       <div>
         <Helmet
@@ -62,8 +74,8 @@ export default class Page extends Component {
           <h1>{ head.title }</h1>
         }
          {
-          icons &&
-           <WebIconList websites={ icons }/>
+          this.state.icons &&
+           <WebIconList websites={ this.state.icons }/>
         }   
         {
           body &&
