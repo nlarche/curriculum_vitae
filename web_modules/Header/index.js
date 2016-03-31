@@ -1,10 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router"
 
-import WebIcon from "web-icon"
-console.log("tot")
-console.log(WebIcon)
-
 import styles from "./index.css"
 import SVG from "react-svg-inline"
 import twitterSVG from "../icons/iconmonstr-twitter-1.svg"
@@ -37,7 +33,7 @@ export default class Header extends Component {
               className={ styles.link }
             >
               <SVG svg={ twitterSVG } />
-              { "Twitter" }
+              { "Twitter" }             
             </a>
             <a
               href="https://github.com/MoOx/statinamic"

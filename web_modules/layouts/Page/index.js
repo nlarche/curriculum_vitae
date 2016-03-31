@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
+import { WebIconList } from "web-icon"
 
 export default class Page extends Component {
 
@@ -46,6 +47,8 @@ export default class Page extends Component {
       { name: "twitter:description", content: head.description },
       { name: "description", content: head.description },
     ]
+    
+    const icons = head.icons && head.icons.split(",")
 
     return (
       <div>
@@ -58,6 +61,10 @@ export default class Page extends Component {
           head.title &&
           <h1>{ head.title }</h1>
         }
+         {
+          icons &&
+           <WebIconList websites={ icons }/>
+        }   
         {
           body &&
           <div

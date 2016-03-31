@@ -1,5 +1,6 @@
 ---
 title: Expérience
+icons: https://angularjs.org/,https://facebook.github.io/react/,https://www.npmjs.com,https://webpack.github.io/assets/favicon.png,http://bower.io,https://spring.io/,http://foundation.zurb.com/assets/img/icons/favicon.ico,https://cordova.apache.org/,http://getbootstrap.com/
 ---
 
 ## Développeur Web FullStack @[RCA](https://www.rca.fr/)
