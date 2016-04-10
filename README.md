@@ -2,7 +2,7 @@
 http://nlarche.github.io/curriculum_vitae.
 
 build with 
-* [statinamic](http://moox.io/statinamic)
+* [Statinamic](http://moox.io/statinamic)
 * [React](https://facebook.github.io/react/)
 * [Webpack](https://webpack.github.io/)
 * [Webicon](https://github.com/nlarche/web-icon)
