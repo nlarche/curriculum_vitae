@@ -19,17 +19,13 @@ export default class Page extends Component {
   
   constructor(props) {
     super(props)
-    this.state = {
-      icons: null
-    }
+    this.state = { icons: null }
   }
   componentWillReceiveProps(nextProps) {
       
     const icons = nextProps.head.icons && nextProps.head.icons.split(",")
   
-    this.setState({
-      icons: icons
-    })
+    this.setState({ icons: icons })
   }
   render() {
     const {
