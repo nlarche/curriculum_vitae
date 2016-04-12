@@ -2,7 +2,7 @@
 
 if [ "$TRAVIS" = "true" ]
 then
-  git config --global user.email "nico060984@gmail.com"
+  git config --global user.email "gh-pages@localhost"
   git config --global user.name "npm gh-pages"
 fi
 
