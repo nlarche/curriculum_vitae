@@ -8,6 +8,7 @@ fi
 
 ./node_modules/.bin/gh-pages \
   --silent \
-  --repo https://$GITHUB_TOKEN@github.com/nlarche/curriculum_vitae.git 
+  --repo https://$GITHUB_TOKEN@github.com/nlarche/curriculum_vitae.git  \
+  --dist dist
  
   
