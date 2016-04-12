@@ -6,7 +6,7 @@ then
   git config --global user.name "npm gh-pages"
 fi
 
-./node_modules/.bin/gh-pages \
+../node_modules/.bin/gh-pages \
   # ADJUST YOUR REMOTE HERE
   --repo https://$GITHUB_TOKEN@github.com/nlarche/curriculum_vitae.git \
   # TO HIDE YOUR $GITHUB_TOKEN!
