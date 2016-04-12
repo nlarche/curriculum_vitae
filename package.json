@@ -12,7 +12,9 @@
     "test": "npm run build"
   },
   "statinamic": {
-    "CNAME": true
+    "CNAME": true,
+    "devPort": "3001",
+    "open": true
   },
   "babel": {
     "presets": [
