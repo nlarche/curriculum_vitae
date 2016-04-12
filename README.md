@@ -1,4 +1,7 @@
 # Curriculum vitae
+
+[![travis build](https://img.shields.io/travis/nlarche/curriculum_vitae.svg)](https://travis-ci.org/nlarche/curriculum_vitae)
+
 http://nlarche.github.io/curriculum_vitae.
 
 build with 
