@@ -6,6 +6,6 @@ imagePath : ../assets/nlarche.jpg
 ---
 
 ## Nicolas LARCHE
-### Front-end web developper
+### Front-end web developer
 > Nantes, France
 
