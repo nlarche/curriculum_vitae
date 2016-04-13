@@ -14,7 +14,7 @@
   "statinamic": {
     "CNAME": true,
     "devPort": "3001",
-    "open": true
+    "open": false
   },
   "babel": {
     "presets": [
