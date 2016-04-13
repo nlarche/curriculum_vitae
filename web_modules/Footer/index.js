@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link } from "react-router"
 import { WebIcon } from "web-icon"
 
 import styles from "./index.css"
@@ -17,7 +18,16 @@ export default class Footer extends Component {
             {  "<Statinamic />" }
           </span>
         </a>
-         <WebIcon url={ "https://facebook.github.io/react" } />    
+         <WebIcon url={ "https://facebook.github.io/react" } />   
+         <span>
+            <Link to={ "/en/" }>
+                { "English" }
+                </Link>
+                { " | " }
+            <Link to={ "/" }>
+                { "Français" }
+            </Link>
+          </span>
       </footer>
     )
   }

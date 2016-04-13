@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from "react"
 import Helmet from "react-helmet"
 import invariant from "invariant"
 import { WebIconList } from "web-icon"
-import  ProfileCard  from "./profile-card"
+import  ProfileCard  from "../../ProfileCard"
 
 export default class Home extends Component {
 
