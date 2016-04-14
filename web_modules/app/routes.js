@@ -7,6 +7,7 @@ import PhenomicPageContainer from "phenomic/lib/PageContainer"
 import Page from "../layouts/Page"
 import PageError from "../layouts/PageError"
 import PageLoading from "../layouts/PageLoading"
+import Home from "../layouts/Home"
 
 class PageContainer extends Component {
   render() {
@@ -18,6 +19,7 @@ class PageContainer extends Component {
           Page,
           PageError,
           PageLoading,
+          Home,
         } }
       />
     )

@@ -76,7 +76,7 @@ export default class Home extends Component {
         }
          {
           this.state.icons &&
-           <WebIconList websites={ this.state.icons }/>
+           <WebIconList websites={ this.state.icons } />
         }   
         { this.props.children }
       </div>
