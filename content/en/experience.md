@@ -8,7 +8,7 @@ icons: https://angularjs.org,https://www.java.com,https://www.npmjs.com,https://
   * Web and mobile application development
   * Lead Technique FrontEnd
   * Javascript worklfow ([NPM](https://www.npmjs.com/), [bower](http://bower.io/), [webpack](https://webpack.github.io/))
-  * Moitoring web technology
+  * Monitoring web technology
   * [AngularJS](https://angularjs.org/) <WebIcon url={https://angularjs.org} />
   * [D3.js](https://d3js.org/)
   * [Spring MVC](https://spring.io/)
