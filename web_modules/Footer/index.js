@@ -24,7 +24,7 @@ export default class Footer extends Component {
                 { "English" }
                 </Link>
                 { " | " }
-            <Link to={ "/" }>
+            <Link to={ "/fr/" }>
                 { "Français" }
             </Link>
           </span>

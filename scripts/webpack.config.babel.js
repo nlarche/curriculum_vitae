@@ -52,6 +52,13 @@ export default ({ config, pkg }) => ({
         test: /\.svg$/,
         loader: "raw-loader",
       },
+        {
+        test: /\.yml$/,
+        loaders : [
+          "json-loader", 
+          "yaml-loader",
+        ],
+      },
     ],
   },
 

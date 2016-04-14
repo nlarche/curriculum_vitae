@@ -1,0 +1,11 @@
+---
+lang: fr
+test: test
+navigation:
+    - 
+        url : /fr/
+        name : Home
+    - 
+        url : /fr/experience
+        name : Expérience
+...
