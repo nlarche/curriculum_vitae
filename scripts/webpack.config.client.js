@@ -21,16 +21,16 @@ export default ({ config }) => {
             }`,
             "eslint-loader?fix",
           ],
-          //include: [
-          //  path.resolve(config.cwd, "scripts"),
-          //  path.resolve(config.cwd, "web_modules")
-          //],
+          include: [
+            path.resolve(config.cwd, "scripts"),
+            path.resolve(config.cwd, "web_modules"),
+          ],
         },
       ],
     },
 
     entry: {
-      "statinamic-client": path.join(__dirname, "index-client"),
+      "phenomic-client": path.join(__dirname, "index-client"),
     },
   }
 }

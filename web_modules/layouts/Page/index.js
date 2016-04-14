@@ -72,7 +72,7 @@ export default class Page extends Component {
         }
          {
           this.state.icons &&
-           <WebIconList websites={ this.state.icons }/>
+           <WebIconList websites={ this.state.icons } />
         }   
         {
           body &&

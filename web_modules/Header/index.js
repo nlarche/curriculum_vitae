@@ -57,8 +57,8 @@ export default class Header extends Component {
                                 >
                                     <WebIcon 
                                       url={ link.url } 
-                                      noLink={ true } 
-                                      grayscale={ true } 
+                                      noLink 
+                                      grayscale 
                                     />
                                     { link.name }
                                 </a>
