@@ -60,7 +60,12 @@ export default class Home extends Component {
       { name: "description", content: head.description },
     ]
     
-    const imagePath = head.imagePath
+    const {
+        imagePath,
+        texteTitle, 
+        subtitle,
+        location,        
+        } = head
     
     return (
       <div>
@@ -69,15 +74,21 @@ export default class Home extends Component {
           meta={ meta }
         />       
         {
-          body &&
-          <ProfileCard
-            content={ body } imagePath={ imagePath }
+          imagePath &&
+          <ProfileCard            
+            imagePath={ imagePath }
+            title={ texteTitle }
+            subtitle={ subtitle }
+            location={ location }
           />
         }
          {
           this.state.icons &&
            <WebIconList websites={ this.state.icons } />
         }   
+         <div
+           dangerouslySetInnerHTML={ { __html: body } }
+         />        
         { this.props.children }
       </div>
     )

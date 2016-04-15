@@ -4,29 +4,29 @@ import Styles from "./index.css"
 export default class ProfileCard extends Component {  
     
   static propTypes = {
-    content: PropTypes.string.isRequired,
     imagePath: PropTypes.string.isRequired,
   };  
     
   constructor(props) {
     super(props)
-    this.state = {
-      content : this.props.content,
-      imagePath : this.props.imagePath,
-    }
+    this.state = this.initState(props)
   }
   componentWillReceiveProps(nextProps) {
-    this.initState(nextProps)
+    this.setState(this.initState(nextProps))
   }
   shouldComponentUpdate(nextProps) {       
-    return nextProps.content !== this.state.content
-         || nextProps.imagePath !== this.state.imagePath
+    return nextProps.imagePath !== this.state.imagePath
+         || nextProps.title !== this.state.title
+         || nextProps.subtitle !== this.state.subtitle
+         || nextProps.location !== this.state.location
   }   
   initState(props) {
-    this.setState({
-      content : props.content,
+    return {
       imagePath : props.imagePath,
-    })
+      title : props.title,
+      subtitle: props.subtitle,
+      location:props.location,
+    }
   }
   render() {    
     const imageName = this.state.imagePath
@@ -36,9 +36,11 @@ export default class ProfileCard extends Component {
            alt={ imageName }  
            src={ this.state.imagePath } 
          />
-         <div
-           dangerouslySetInnerHTML={ { __html: this.state.content } }
-         />
+         <div>
+            { this.state.title && <h1>{ this.state.title } </h1> }
+            { this.state.subtitle &&  <h2>{ this.state.subtitle } </h2> }
+            { this.state.location &&  <span>{ this.state.location } </span> }
+         </div>        
       </div>
     )
   }

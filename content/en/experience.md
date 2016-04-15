@@ -1,5 +1,5 @@
 ---
-title: Expérience
+title: Experience
 icons: https://angularjs.org,https://www.java.com,https://www.npmjs.com,https://webpack.github.io/assets/favicon.png,http://bower.io,https://spring.io/,http://foundation.zurb.com/assets/img/icons/favicon.ico,https://cordova.apache.org/,http://getbootstrap.com/
 ---
 

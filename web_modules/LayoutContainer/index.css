@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #092c7a;
+  color: #094e94;
   opacity: 0.8;
 
   &:hover {
@@ -29,7 +29,7 @@ h2,
 h3 {
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957;
+  color: #159987;
 }
 
 @custom-selector :--headings h1, h2, h3, h4, h5, h6;
