@@ -60,7 +60,9 @@ export default class Header extends Component {
                                       noLink 
                                       grayscale 
                                     />
+                                    <p className={ styles.linkName } >
                                     { link.name }
+                                    </p>
                                 </a>
                             </span>
                         ) }
