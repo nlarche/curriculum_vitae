@@ -12,7 +12,7 @@ icons: https://angularjs.org,https://www.java.com,https://www.npmjs.com,https://
   * [AngularJS](https://angularjs.org/) <WebIcon url={https://angularjs.org} />
   * [D3.js](https://d3js.org/)
   * [Spring MVC](https://spring.io/)
-  * [Foundation](http://foundation.zurb.com/)
+  * [Ionic](https://ionicframework.com/)
   * [Apache cordova](https://cordova.apache.org/)
   * iOs and Android applications developement 
 

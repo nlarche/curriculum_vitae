@@ -14,6 +14,6 @@ location: Nantes, France
 
 > Pendant mon temps libre, j'apprends des Framworks comme React, Angular 2, ou cycleJS.
 
-> Je travaille également sur des téchnologies back-end notamment Java, Spring ou hibernate.
+> Je travaille également sur des technologies back-end notamment Java, Spring ou hibernate.
 
 > Le détail de mes [expériences](fr/experience)
